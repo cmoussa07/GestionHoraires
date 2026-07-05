@@ -1,0 +1,33 @@
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --sidebar-background: #1a47cc;
+    --sidebar-foreground: #ffffff;
+    --sidebar-primary: #ffffff;
+    --sidebar-primary-foreground: #1a47cc;
+    --sidebar-accent: rgba(255, 255, 255, 0.15);
+    --sidebar-accent-foreground: #ffffff;
+    --sidebar-border: rgba(255, 255, 255, 0.2);
+    --sidebar-ring: #ffffff;
+  }
+}
+
+html,
+body,
+#root {
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
